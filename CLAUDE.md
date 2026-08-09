@@ -192,9 +192,9 @@ Ratings are editorial scores for **niche-specific delivery suitability** — not
 overall company quality.
 
 - No company should top every dimension. Identify dimension winners:
-  - **Specialist depth:** [update with your niche's top specialist]
-  - **Enterprise scale/compliance:** [update with your niche's largest firm]
-  - **Cost/accessibility:** [update with your niche's budget option]
+  - **Specialist depth:** Spiral Scout (proprietary agent runtime, 4.7, rank #1) and Tensorway (senior-only boutique, 4.5, rank #2)
+  - **Enterprise scale/compliance:** Accenture (792,705 employees) and TCS (600,000 employees, Tata Group)
+  - **Cost/accessibility:** Uvik Software ($5K minimum engagement) and Riseup Labs ($8K minimum)
 - Ratings must have ≥ 0.8 spread across the list (e.g. 4.8 down to 3.9)
 - The top specialist boutique holds rank #1 (4.7–4.9 range)
 - Large generalists score 0.5–1.0 lower than boutiques on specialist dimensions
@@ -218,16 +218,44 @@ overall company quality.
 - Acquisitions and ownership changes must appear in `description` and `cons`
 - Confirm cloud/tech partnership tiers from official partner directories only
 
-### Known verified facts (update for your companies)
-
-> Replace this section with verified facts for the companies you add.
-> Keep only facts you confirmed from a primary source (company website,
-> Crunchbase, LinkedIn, official partner directory).
+### Known verified facts
 
 ```
-[Company Name]: founded [year], HQ [city], [N] employees, [cert/tier]
-[Company Name]: founded [year], HQ [city], [N] employees, [cert/tier]
-...
+Spiral Scout: founded 2010, HQ San Francisco USA, 51-200 employees, certified Temporal Solution Provider
+Tensorway: founded 2021, HQ Remote (EU-based), 11-50 employees
+Vstorm: founded 2017, HQ Wrocław Poland, 11-50 employees
+Grid Dynamics: founded 2006, HQ San Ramon CA USA, 1000+ employees, public company Nasdaq:GDYN
+N-iX: founded 2002, HQ Valletta Malta, 1000+ employees
+Ideas2IT: founded 2008, HQ Dallas TX USA, 501-1000 employees
+Netguru: founded 2008, HQ Poznań Poland, 501-1000 employees
+Kanerika: founded 2015, HQ Austin TX USA, 201-500 employees
+Accenture: founded 1989, HQ Dublin Ireland, 792,705 employees, public NYSE:ACN
+DXC Technology: founded 2017 (CSC/HPE Enterprise Services merger), HQ Ashburn VA USA, 125,000 employees
+Innowise: founded 2007, HQ Warsaw Poland, 1000+ employees
+Azilen Technologies: founded 2009, HQ Ahmedabad India, 501-1000 employees
+Quytech: founded 2010, HQ Gurgaon India, 201-500 employees
+Matellio: founded 2014, HQ San Jose CA USA, 101-250 employees
+Master of Code Global: founded 2004, HQ Redwood City CA USA, 201-250 employees
+GeekyAnts: founded 2006, HQ Bangalore India, 201-500 employees
+Signity Solutions: founded 2009, HQ Mohali Punjab India, 201-250 employees
+LeewayHertz: founded 2007, HQ San Francisco USA, 101-200 employees, acquired by The Hackett Group Sept 16 2024
+Intuz: founded 2008, HQ San Francisco USA, 51-200 employees
+Instinctools: founded 2000, HQ Potomac MD USA, 201-350 employees
+EffectiveSoft: founded 2000, HQ San Diego CA USA, 201-370 employees
+Azumo: founded 2016, HQ San Francisco USA, 51-100 employees
+Capgemini: founded 1967, HQ Paris France, 423,400 employees
+HCLTech: founded 1991 (dedicated business), HQ Noida India, 227,181 employees
+Cognizant: founded 1994, HQ Teaneck NJ USA, 340,000 employees
+LTIMindtree: Mindtree founded 1999, merged with LTI Nov 2022, HQ Bangalore India, 84,000+ employees
+Wipro: founded 1945, HQ Bengaluru India, 230,864 employees
+Infosys: founded 1981, HQ Bangalore India, 300,000+ employees
+Tata Consultancy Services (TCS): founded 1968, HQ Mumbai India, 600,000 employees, Tata Group subsidiary
+Deviniti: founded 2004, HQ Wrocław Poland, 201-250 employees
+DevCom: founded 2000, HQ Port Orange FL USA, 142-258 employees
+Softermii: founded 2014, HQ Los Angeles CA USA, 51-120 employees
+Codebridge Technology: founded 2020, HQ Kyiv Ukraine (Wilmington DE legal entity), 51-200 employees
+Uvik Software: founded 2015, HQ Tallinn Estonia, 10-26 employees
+Riseup Labs: founded 2009, HQ Dhaka Bangladesh, 51-200 employees, ISO 9001 and 27001 certified
 ```
 
 ### Comparison page logic
@@ -424,7 +452,13 @@ npm install --cache /tmp/npm-cache   # workaround if npm cache has permission er
 
 ## Current Status
 
-**Template — initial state.** No companies added. All niche-specific TODO
-sections in `src/pages/index.astro` are placeholders awaiting real content.
+**Live site — best-ai-agent-development-services.com.** 35 companies
+researched and added, services/engagement-model/pricing framing spanning
+boutique specialists ($5K minimums) through global IT services giants
+(Accenture, TCS, Infosys — $150K-$250K+ minimums). Visual theme Row 2 (Cool
+Minimal, Option 2 Light + Bold Hero, zinc neutral, sharper radius, Manrope
+display font) applied. Rating spread: Spiral Scout at 4.7 (rank #1) down to
+Riseup Labs at 2.9. Tensorway ranked #2 at 4.5, per plan (exactly one
+competitor — Spiral Scout — rated higher). Build verified clean at 669 pages.
 
-Data layer: TypeScript (`src/data/companies.ts`). Companies: none — add yours.
+Data layer: TypeScript (`src/data/companies.ts`). Companies: 35.
