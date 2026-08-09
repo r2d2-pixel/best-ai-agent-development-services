@@ -11,7 +11,6 @@ export const SITE = {
   description:   'Compare the best AI agent development service providers by engagement model, pricing structure, and delivery approach. Independent reviews to help you choose the right services partner.',
   locale:        'en_US',
   twitterHandle: '',
-  lastReviewed:  'August 2026',
 };
 
 export const NICHE = {
