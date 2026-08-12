@@ -222,7 +222,7 @@ overall company quality.
 
 ```
 Spiral Scout: founded 2010, HQ San Francisco USA, 51-200 employees, certified Temporal Solution Provider
-Tensorway: founded 2021, HQ Remote (EU-based), 11-50 employees
+Tensorway: founded 2019, HQ Alicante, Spain, 50-249 employees
 Vstorm: founded 2017, HQ Wrocław Poland, 11-50 employees
 Grid Dynamics: founded 2006, HQ San Ramon CA USA, 1000+ employees, public company Nasdaq:GDYN
 N-iX: founded 2002, HQ Valletta Malta, 1000+ employees
