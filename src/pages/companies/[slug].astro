@@ -131,7 +131,6 @@ const jsonLd = [
       {[
         { label: 'Overview', href: '#overview' },
         { label: 'Tech stack', href: '#tech-stack' },
-        { label: 'Use cases', href: '#use-cases' },
         { label: 'Pricing', href: '#pricing' },
         { label: 'Pros & cons', href: '#pros-cons' },
         { label: 'Alternatives', href: '#alternatives' },
@@ -178,28 +177,6 @@ const jsonLd = [
                 {company.badges.map((b, i) => (
                   <tr class={`border-b border-zinc-100 ${i % 2 === 1 ? 'bg-zinc-50/50' : ''}`}>
                     <td class="px-4 py-3 font-medium text-zinc-800">{SERVICE_LABELS[b] ?? b}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        <!-- Use cases -->
-        <section id="use-cases" class="mb-10">
-          <h2 class="text-xl font-bold text-zinc-900 mb-4">{company.name} use cases</h2>
-          <p class="text-zinc-600 mb-4 text-sm">Short answer: {company.name} is best suited for {lowerFirstSentence(company.bestFor)}.</p>
-          <div class="overflow-x-auto rounded-lg border border-zinc-200">
-            <table class="w-full text-sm">
-              <thead>
-                <tr class="bg-zinc-50 border-b border-zinc-200">
-                  <th class="text-left px-4 py-3 font-semibold text-zinc-700">Use case</th>
-                </tr>
-              </thead>
-              <tbody>
-                {company.useCases.map((uc, i) => (
-                  <tr class={`border-b border-zinc-100 ${i % 2 === 1 ? 'bg-zinc-50/50' : ''}`}>
-                    <td class="px-4 py-3 text-zinc-700">{uc}</td>
                   </tr>
                 ))}
               </tbody>
